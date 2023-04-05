@@ -1,13 +1,13 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'SK Cleaning',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://skclean.net',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
+  title: 'SK Cleaning',
   description:
     '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
   defaultImage: defaultImage,
