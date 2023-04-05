@@ -1,0 +1,34 @@
+---
+import { SITE } from '~/config.mjs';
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Contact from '~/components/widgets/Contact.astro';
+
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+  <Hero
+    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
+    callToAction2={{ text: 'Learn more', href: '#features' }}
+  >
+    <Fragment slot="title">
+      <span class="hidden lg:inline">create your website <br class="2xl:hidden" /> with</span>
+      <span class="text-accent dark:text-white highlight"> SK Cleaning</span> Services
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0
+        + Tailwind CSS.</span
+      >
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span> Suitable for Startups,
+      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+    </Fragment>
+  </Hero>
+  <Contact />
+</Layout>
