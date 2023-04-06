@@ -1,11 +1,10 @@
 ---
-import { getAsset } from '~/utils/permalinks';
 import { Picture } from '@astrojs/image/components';
 ---
 
 <span class="ml-4 align-middle inline-block">
   <Picture
-    src={getAsset('/favicon.svg')}
+    src="/favicon.svg"
     width={150}
     height={150}
     widths={[300]}
