@@ -3,7 +3,7 @@ title: 'FAQs'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: January 06, 2023
+_Last updated_: April 06, 2023
 
 # SK Cleaning Services - Frequently Asked Questions
 
