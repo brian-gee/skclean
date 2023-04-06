@@ -4,6 +4,15 @@ module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
+      backgroundColor: {
+        'custom-blue': '#0071A8',
+      },
+      textColor: {
+        'custom-blue': '#0071A8',
+      },
+      borderColor: {
+        'custom-blue': '#0071A8',
+      },
       colors: {
         primary: 'var(--aw-color-primary)',
         secondary: 'var(--aw-color-secondary)',

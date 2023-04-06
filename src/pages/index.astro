@@ -3,9 +3,7 @@ import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import { getPermalink } from '~/utils/permalinks';
 
 const meta = {
   title: SITE.title,
@@ -22,7 +20,7 @@ const meta = {
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight"> SK Cleaning</span> Services
+      <span class="highlight"> SK Cleaning</span> Services
     </Fragment>
 
     <Fragment slot="subtitle">
